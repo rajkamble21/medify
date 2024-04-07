@@ -1,0 +1,41 @@
+.OurFamilySection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  border: 1px solid black;
+  background: linear-gradient(
+    81deg,
+    #e7f0ff 9.01%,
+    rgba(232, 241, 255, 0.47) 89.11%
+  );
+  padding-top: 30px;
+}
+
+.OurFamilySection > div {
+  width: 585px;
+}
+
+.OurFamilySection > div > h3 {
+  color: rgba(42, 167, 255, 1);
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 18px;
+}
+.OurFamilySection > div > h1 {
+  color: rgba(27, 60, 116, 1);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 67px;
+}
+.OurFamilySection > div > p {
+  color: rgba(119, 130, 157, 1);
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 40.8px;
+  text-align: left;
+}
+.OurFamilySection > img {
+  width: 585px;
+}

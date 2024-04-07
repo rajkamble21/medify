@@ -1,0 +1,52 @@
+.getyourans {
+  color: rgba(42, 167, 255, 1);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: center;
+  margin: 35px 0px 5px 0px;
+}
+
+.frequent {
+  color: rgba(27, 60, 116, 1);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 67px;
+  text-align: center;
+  margin: 5px 0px 35px 0px;
+}
+
+.imgque {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  position: relative;
+}
+
+.que > div {
+    display: flex;
+    width: 420px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.que > div > p {
+  color: rgba(27, 60, 116, 1);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  margin: 30px 0px;
+  width: 380px;
+}
+
+.likes{
+    position: absolute;
+    left: 150px;
+    bottom: 100px;
+}
+.love{
+    position: absolute;
+    left: 705px;
+    top: 170px;
+}
