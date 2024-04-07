@@ -1,4 +1,5 @@
 import './App.css';
+import BlogAndNews from './components/BlogAndNews';
 import DownloadSection from './components/DownloadSection';
 import FooterSection from './components/FooterSection';
 import HeaderOne from './components/HeaderOne';
@@ -11,6 +12,7 @@ function App() {
     <>
     <HeaderOne />
     <HeroSection />
+    <BlogAndNews />
     <OurFamilySection />
     <QuestionSection />
     <DownloadSection />
