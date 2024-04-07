@@ -1,0 +1,59 @@
+.PatientCaring {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    81deg,
+    #e7f0ff 9.01%,
+    rgba(232, 241, 255, 0.47) 89.11%
+  );
+  border: 1px solid black;
+  gap: 70px;
+  padding: 50px;
+}
+
+.PatientCaring > div {
+  width: 563px;
+}
+
+.PatientCaring > div > h2 {
+  color: rgba(42, 167, 255, 1);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.PatientCaring > div > h1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 67px;
+}
+
+.PatientCaring > div > h1 > span:nth-of-type(1) {
+  color: rgba(27, 60, 116, 1);
+}
+.PatientCaring > div > h1 > span:nth-of-type(2) {
+  color: rgba(42, 167, 255, 1);
+}
+
+.PatientCaring > div > p {
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 29px;
+  color: rgba(119, 130, 157, 1);
+}
+
+.PatientCaring > div > div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 20px 0px;
+    color: rgba(27, 60, 116, 1);
+    font-family: Roboto;
+font-size: 18px;
+font-weight: 500;
+line-height: 27px;
+
+
+}
