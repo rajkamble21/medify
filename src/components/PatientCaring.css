@@ -44,16 +44,14 @@
   color: rgba(119, 130, 157, 1);
 }
 
-.PatientCaring > div > div{
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    margin: 20px 0px;
-    color: rgba(27, 60, 116, 1);
-    font-family: Roboto;
-font-size: 18px;
-font-weight: 500;
-line-height: 27px;
-
-
+.PatientCaring > div > div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 20px 0px;
+  color: rgba(27, 60, 116, 1);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
 }

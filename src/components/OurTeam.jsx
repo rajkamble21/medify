@@ -48,8 +48,8 @@ const OurTeam = () => {
               <img className="image" src={ankur} alt="" srcset="" />
             </div>
             <div className="data">
-              <h1>Dr. Ahemad Khan</h1>
-              <p>Neurologist</p>
+              <h1>Dr. Ankur Sharma</h1>
+              <p>Medicine</p>
             </div>
           </div>
         </SwiperSlide>
@@ -59,8 +59,8 @@ const OurTeam = () => {
               <img className="image" src={heena} alt="" srcset="" />
             </div>
             <div className="data">
-              <h1>Dr. Ahemad Khan</h1>
-              <p>Neurologist</p>
+              <h1>Dr. Heena Sachdeva</h1>
+              <p>Orthopadics</p>
             </div>
           </div>
         </SwiperSlide>
@@ -70,8 +70,8 @@ const OurTeam = () => {
               <img className="image" src={rajdeep} alt="" srcset="" />
             </div>
             <div className="data">
-              <h1>Dr. Ahemad Khan</h1>
-              <p>Neurologist</p>
+              <h1>Dr. Rajdeep Sardesai</h1>
+              <p>Cardiologist</p>
             </div>
           </div>
         </SwiperSlide>
@@ -81,19 +81,8 @@ const OurTeam = () => {
               <img className="image" src={sudhir} alt="" srcset="" />
             </div>
             <div className="data">
-              <h1>Dr. Ahemad Khan</h1>
-              <p>Neurologist</p>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="profile-data">
-            <div className="profile">
-              <img className="image" src={heena} alt="" srcset="" />
-            </div>
-            <div className="data">
-              <h1>Dr. Ahemad Khan</h1>
-              <p>Neurologist</p>
+              <h1>Dr. Sudhir Chaudhary</h1>
+              <p>ENT specialist</p>
             </div>
           </div>
         </SwiperSlide>

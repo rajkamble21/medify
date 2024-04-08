@@ -32,6 +32,10 @@
   height: 100%;
 }
 
+.data{
+  margin: 10px 0px;
+}
+
 .data > h1 {
   color: rgba(27, 60, 116, 1);
   font-size: 24px;
