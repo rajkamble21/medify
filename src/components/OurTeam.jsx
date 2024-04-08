@@ -1,12 +1,10 @@
 import React from "react";
 import "./OurTeam.css";
 
-// import Swiper core and required modules
 import { Pagination, A11y } from "swiper/modules";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
