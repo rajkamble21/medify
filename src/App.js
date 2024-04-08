@@ -8,12 +8,14 @@ import OurFamilySection from './components/OurFamilySection';
 import OurTeam from './components/OurTeam';
 import PatientCaring from './components/PatientCaring';
 import QuestionSection from './components/QuestionSection';
+import Specialisation from './components/Specialisation';
 
 function App() {
   return (
     <>
     <HeaderOne />
     <HeroSection />
+    <Specialisation />
     <OurTeam />
     <PatientCaring />
     <BlogAndNews />

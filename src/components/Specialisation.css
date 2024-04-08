@@ -1,0 +1,66 @@
+.Specialisation {
+  border: 1px solid black;
+  background: linear-gradient(
+    81deg,
+    #e7f0ff 9.01%,
+    rgba(232, 241, 255, 0.47) 89.11%
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding: 30px 0px;
+}
+
+.Specialisation > h1 {
+  color: rgba(27, 60, 116, 1);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 67px;
+}
+
+.Specialisation > button {
+  background-color: rgba(42, 168, 255, 1);
+  width: 147px;
+  height: 50px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+
+.box-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  grid-gap: 30px; 
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 10px;
+  width: 270px;
+  height: 180px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 34px 44px 0px rgba(213, 219, 228, 0.44);
+}
+
+.box img {
+  width: 65px; 
+}
+
+.box h3 {
+  margin-top: 10px;
+  color: rgba(171, 182, 199, 1);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: center;
+}
