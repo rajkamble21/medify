@@ -5,6 +5,7 @@ import FooterSection from './components/FooterSection';
 import HeaderOne from './components/HeaderOne';
 import HeroSection from './components/HeroSection';
 import OurFamilySection from './components/OurFamilySection';
+import OurTeam from './components/OurTeam';
 import PatientCaring from './components/PatientCaring';
 import QuestionSection from './components/QuestionSection';
 
@@ -13,6 +14,7 @@ function App() {
     <>
     <HeaderOne />
     <HeroSection />
+    <OurTeam />
     <PatientCaring />
     <BlogAndNews />
     <OurFamilySection />
