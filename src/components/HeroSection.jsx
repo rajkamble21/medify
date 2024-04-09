@@ -5,6 +5,13 @@ import { Link } from "react-router-dom";
 import img from "../asset/hero.png";
 import percent30 from "../asset/percent30.png";
 import percent100 from "../asset/percent100.png";
+import searchgrey from "../asset/searchgrey.png";
+import searchwhite from "../asset/searchwhite.png";
+import Doctorlogo from "../asset/Doctorlogo.png";
+import Ambulance from "../asset/Ambulance.png";
+import Capsule from "../asset/Capsule.png";
+import Hospital from "../asset/Hospital.png";
+import Drugstore from "../asset/Drugstore.png";
 
 import { Pagination, A11y } from "swiper/modules";
 
@@ -45,7 +52,45 @@ const HeroSection = () => {
         <img src={img} alt="" srcset="" />
       </div>
 
-      
+      <div className="floating-div">
+        <div className="form">
+          <div className="input-controll">
+            <img src={searchgrey} alt="" srcset="" />
+            <input type="text" placeholder="State" />
+          </div>
+          <div className="input-controll">
+            <img src={searchgrey} alt="" srcset="" />
+            <input type="text" placeholder="City" />
+          </div>
+          <button>
+            <img src={searchwhite} alt="" srcset="" />
+            Search
+          </button>
+        </div>
+        <h5>You may be looking for</h5>
+        <div className="category">
+          <div>
+            <img src={Doctorlogo} alt="" />
+            <h6>Doctors</h6>
+          </div>
+          <div>
+            <img src={Drugstore} alt="" />
+            <h6>Labs</h6>
+          </div>
+          <div>
+            <img src={Hospital} alt="" />
+            <h6>Hospitals</h6>
+          </div>
+          <div>
+            <img src={Capsule} alt="" />
+            <h6>Medical store</h6>
+          </div>
+          <div>
+            <img src={Ambulance} alt="" />
+            <h6>Ambulance</h6>
+          </div>
+        </div>
+      </div>
 
       <div className="offer-img">
         <Swiper
