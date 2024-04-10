@@ -1,0 +1,168 @@
+.blueSection {
+  height: 96px;
+  background: linear-gradient(91.75deg, #2aa7ff 1.4%, #0c8ce6 100.57%);
+  border-radius: 0px 0px 16px 16px;
+}
+
+.floating-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin: 50px 0px;
+
+  border: 1px solid rgba(240, 240, 240, 1);
+  width: 1170px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 6px 6px 35px 0px rgba(16, 40, 81, 0.11);
+  border-radius: 15px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 170px;
+  margin: auto;
+  padding: 25px 0px;
+}
+
+.medicalCenters {
+  padding: 170px 100px;
+  background: linear-gradient(
+    81deg,
+    #e7f0ff 9.01%,
+    rgba(232, 241, 255, 0.47) 89.11%
+  );
+}
+
+.medicalCenters > h1 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.medicalCenters > h6 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(120, 120, 135, 1);
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 20px;
+}
+
+.medicalCenters > div {
+  display: flex;
+  gap: 40px;
+}
+
+.medicalCenters > div > img {
+  width: 400px;
+  height: 300px;
+  margin: 20px 0px;
+  
+}
+
+.center {
+  width: 786px;
+  height: 269px;
+  border-radius: 15px;
+  padding: 24px;
+  background: rgba(255, 255, 255, 1);
+  margin: 20px 0px;
+  display: flex;
+  gap: 25px;
+}
+
+.middlecontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.middlecontent > h3 {
+  color: rgba(20, 190, 240, 1);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  margin: 15px 0px;
+}
+.middlecontent > h6 {
+  color: rgba(65, 65, 70, 1);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19.6px;
+}
+
+.middlecontent > p {
+  color: rgba(65, 65, 70, 1);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+}
+
+.middlecontent .free-span {
+  color: rgba(2, 164, 1, 1);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19.6px;
+}
+
+.middlecontent .price-span {
+  color: (120, 120, 135, 1);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  margin: 0px 10px;
+}
+
+.middlecontent .fee-span {
+  color: rgba(65, 65, 70, 1);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+}
+
+.like-btn {
+  border-top: 1px solid rgba(232, 232, 240, 1);
+  width: 307.55px;
+  height: 39.5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.like-btn > img {
+  width: 44.08px;
+  height: 22.5px;
+}
+
+.rightcontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.rightcontent > p {
+  color: rgba(1, 164, 0, 1);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19.6px;
+  text-align: center;
+  margin: 5px;
+}
+
+.rightcontent > button {
+  background-color: rgba(42, 167, 255, 1);
+  width: 212px;
+  height: 40px;
+  padding: 9.62px 28.55px 9.38px 29.45px;
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: center;
+  margin: 5px;
+}
