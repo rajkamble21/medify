@@ -17,9 +17,11 @@ const FindDoctor = ({
   setSelectedCity,
   cities,
   medicalCenters,
+  appointments,
+  addAppointment,
+  availableSlots,
+  setAvailableSlots,
 }) => {
-  
-
   return (
     <>
       <Navbar />
@@ -72,7 +74,14 @@ const FindDoctor = ({
             <div>
               {medicalCenters.length ? (
                 medicalCenters.map((center, index) => (
-                  <HospitalCenter center={center} key={index} />
+                  <HospitalCenter
+                    center={center}
+                    key={index}
+                    appointments={appointments}
+                    addAppointment={addAppointment}
+                    availableSlots={availableSlots}
+                    setAvailableSlots={setAvailableSlots}
+                  />
                 ))
               ) : (
                 <h1>Loading ...</h1>

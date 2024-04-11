@@ -114,3 +114,38 @@
   gap: 25px;
   padding: 24px 24px;
 }
+
+.rightcontent-mybookings {
+  display: flex;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.rightcontent-mybookings .time {
+  width: 84px;
+  height: 31.59px;
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid rgba(42, 167, 255, 1);
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: center;
+
+  color: rgba(42, 167, 255, 1);
+}
+.rightcontent-mybookings .date {
+  width: 128px;
+  height: 32px;
+  padding: 7px;
+  border-radius: 3px;
+
+  border: 1px solid rgba(0, 165, 0, 1);
+  color: rgba(0, 113, 0, 1);
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19.6px;
+  text-align: center;
+}

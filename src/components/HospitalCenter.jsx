@@ -4,7 +4,14 @@ import hpcenter from "../asset/hpcenter.png";
 import likebtn from "../asset/likebtn.png";
 import Appointments from "./Appointments";
 
-const HospitalCenter = ({ center }) => {
+const HospitalCenter = ({
+  center,
+  appointments,
+  addAppointment,
+  availableSlots,
+  setAvailableSlots,
+  readOnly,
+}) => {
   const [showLower, setShowLower] = useState(false);
 
   return (
@@ -14,8 +21,12 @@ const HospitalCenter = ({ center }) => {
           <img src={hpcenter} alt="" srcset="" />
         </div>
         <div className="middlecontent">
-          <h3>{center["Hospital Name"]}</h3>
-          <h6>{center.City}, {center.State}</h6>
+          {readOnly ? <><h3>{center.hospital}</h3> <h6>
+            {center.city}, {center.state}
+          </h6></> : <><h3>{center["Hospital Name"]}</h3> <h6>
+            {center.City}, {center.State}
+          </h6></>}
+          
           <p>Smilessence Center for Advanced Dentistry + 1</p>
           <p>more</p>
           <div>
@@ -27,16 +38,28 @@ const HospitalCenter = ({ center }) => {
             <img src={likebtn} alt="" srcset="" />
           </div>
         </div>
-        <div className="rightcontent">
+        {readOnly ? <div className="rightcontent-mybookings">
+          <div className="time">{center.time}</div>
+          <div className="date">{center.date}</div>
+        </div> : <div className="rightcontent">
           <p>Available Today</p>
           <button onClick={() => setShowLower(!showLower)}>
             Book FREE Center Visit
           </button>
-        </div>
+        </div>}
+        
       </div>
       {showLower && (
         <div className="lower">
-          <Appointments name={center["Hospital Name"]} />
+          <Appointments
+            name={center["Hospital Name"]}
+            state={center.State}
+            city={center.City}
+            appointments={appointments}
+            addAppointment={addAppointment}
+            availableSlots={availableSlots}
+                    setAvailableSlots={setAvailableSlots}
+          />
         </div>
       )}
     </div>
