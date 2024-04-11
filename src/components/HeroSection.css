@@ -104,7 +104,6 @@
 }
 
 .input-controll {
-  width: 285px;
   height: 50px;
   border-radius: 8px;
   background-color: rgba(250, 251, 254, 1);
@@ -113,10 +112,23 @@
   align-items: center;
 }
 
+.select-width{
+  width: 285px;
+}
+
 .input-controll > img {
   padding: 15px;
 }
 .input-controll > select {
+  padding: 10px 0px;
+  background-color: rgba(250, 251, 254, 1);
+  color: rgba(171, 182, 199, 1);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+}
+.input-controll > input {
   padding: 10px 0px;
   background-color: rgba(250, 251, 254, 1);
   color: rgba(171, 182, 199, 1);

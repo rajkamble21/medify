@@ -68,7 +68,7 @@ const HeroSection = ({
 
         <div className="floating-div">
           <div className="form">
-            <div className="input-controll">
+            <div className="input-controll select-width">
               <img src={searchgrey} alt="" srcset="" />
               <select
                 value={selectedState}
@@ -82,7 +82,7 @@ const HeroSection = ({
                 ))}
               </select>
             </div>
-            <div className="input-controll">
+            <div className="input-controll select-width">
               <img src={searchgrey} alt="" srcset="" />
               <select
                 value={selectedCity}

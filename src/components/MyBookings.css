@@ -1,0 +1,24 @@
+
+
+.floating-search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 50px 0px;
+  
+    border: 1px solid rgba(240, 240, 240, 1);
+    width: 780px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 6px 6px 35px 0px rgba(16, 40, 81, 0.11);
+    border-radius: 15px;
+    position: absolute;
+    right: 120px;
+    top: 170px;
+    margin: auto;
+    padding: 25px 0px;
+}
+
+.input-width{
+    width: 545px;
+}

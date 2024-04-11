@@ -1,0 +1,98 @@
+.slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 4px solid rgba(240, 240, 245, 1);
+  cursor: pointer;
+  padding: 5px;
+}
+
+.slide > h1 {
+  color: rgba(65, 65, 70, 1);
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22.4px;
+  text-align: center;
+}
+
+.slide > span {
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: center;
+
+  color: rgba(1, 164, 0, 1);
+}
+
+.slide.active {
+  border-bottom: 4px solid rgba(42, 167, 255, 1);
+}
+
+.appointments {
+  width: 100%;
+  position: relative;
+}
+.appointments-container {
+  width: 80%;
+  margin: auto;
+}
+
+.swiper-button-prev {
+  position: absolute;
+  top : 30px;
+  left: 0px;
+}
+
+.swiper-button-next {
+  position: absolute;
+  top : 30px;
+  right: 0px;
+}
+
+.slots {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.day {
+    display: flex;
+    align-items: center;
+    width: 89%;
+    padding: 20px 0px;
+    gap: 20px;
+}
+
+.day > h3 {
+  color: rgba(65, 65, 70, 1);
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  width: 84px
+}
+
+.day > div {
+  width: 84px;
+  height: 31.59px;
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid rgba(42, 167, 255, 1);
+  cursor: pointer;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: center;
+  color: rgba(42, 167, 255, 1);
+}
+
+.afternoon {
+    border-top: 1px solid rgba(240, 240, 245, 1);
+    border-bottom: 1px solid rgba(240, 240, 245, 1);
+}

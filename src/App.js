@@ -14,6 +14,7 @@ import QuestionSection from "./components/QuestionSection";
 import Specialisation from "./components/Specialisation";
 import FindDoctor from "./components/FindDoctor";
 import "./App.css";
+import MyBookings from "./components/MyBookings";
 
 function App() {
   const [selectedState, setSelectedState] = useState("");
@@ -105,8 +106,21 @@ function App() {
             />
           }
         />
+        <Route
+          path="/myBookings"
+          element={
+            <MyBookings
+              selectedState={selectedState}
+              setSelectedState={setSelectedState}
+              states={states}
+              selectedCity={selectedCity}
+              setSelectedCity={setSelectedCity}
+              cities={cities}
+              medicalCenters={medicalCenters}
+            />
+          }
+        />
       </Routes>
-      <QuestionSection />
       <DownloadSection />
       <FooterSection />
     </>
