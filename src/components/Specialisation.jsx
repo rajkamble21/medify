@@ -27,7 +27,7 @@ const Specialisation = () => {
             </div>
             <div className="box">
                 <img src={mri} alt="" srcset="" />
-                <h3>MRI Resonance</h3>
+                <h3>MRI</h3>
             </div>
             <div className="box">
                 <img src={test} alt="" srcset="" />

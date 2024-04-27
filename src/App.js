@@ -134,7 +134,22 @@ function App() {
       }
     };
 
+    const fetchMedicalCentersBasedonState = async () =>{
+      if (selectedState) {
+        try {
+          const response = await axios.get(
+            `https://meddata-backend.onrender.com/data?state=${selectedState}`
+          );
+          setMedicalCenters(response.data);          
+        } catch (error) {
+          console.log("Error fetching madical centers based on state");          
+        }
+      }
+    }
+
+
     fetchCities();
+    fetchMedicalCentersBasedonState();
   }, [selectedState]);
 
   useEffect(() => {
@@ -153,7 +168,7 @@ function App() {
     };
 
     fetchMedicalCenters();
-  }, [selectedState, selectedCity]);
+  }, [selectedCity]);
 
   return (
     <>

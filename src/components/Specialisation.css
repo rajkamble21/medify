@@ -86,7 +86,7 @@
   .box-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
-    grid-gap: 5px; 
+    grid-gap: 7px; 
     margin-bottom: 10px;
   }
 
@@ -99,11 +99,11 @@
     padding: 1px;
     border-radius: 10px;
     width: 70px;
-    height: 80px;
+    height: 70px;
   }
   
   .box img {
-    width: 25px; 
+    width: 21px; 
   }
   
   .box h3 {

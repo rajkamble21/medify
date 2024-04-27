@@ -65,7 +65,7 @@ const FindDoctor = ({
 
       {selectedState ? (
         <div className="medicalCenters">
-          <h1>{medicalCenters.length} medical centers available in Alaska</h1>
+          <h1>{medicalCenters.length} medical centers available in {selectedState}</h1>
           <h6>
             <img src={verifiedtick} alt="" srcset="" />
             Book appointments with minimum wait-time & verified doctor details
