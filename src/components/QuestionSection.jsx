@@ -12,7 +12,7 @@ const QuestionSection = () => {
       <div className="getyourans">Get Your Answer</div>
       <div className="frequent">Frequently Asked Questions</div>
       <div className="imgque">
-        <img src={doctor} alt="" srcset="" />
+        <img className="doctor" src={doctor} alt="" srcset="" />
         <img className="likes" src={likes} alt="" srcset="" />
         <img className='love' src={love} alt="" srcset="" />
         

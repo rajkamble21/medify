@@ -50,3 +50,68 @@
     left: 705px;
     top: 170px;
 }
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+  .getyourans {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 27px;
+    margin: 15px 0px 5px 0px;
+  }
+  
+  .frequent {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    margin: 5px 0px 5px 0px;
+  }
+  
+  .imgque {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    position: relative;
+  }
+
+  .doctor{
+    width: 320px;
+  }
+  
+  .que > div {
+      width: 320px;
+      margin-bottom: 5px;
+  }
+  
+  .que > div > p {
+    color: rgba(27, 60, 116, 1);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 25px;
+    margin: 5px 0px;
+    width: 320px;
+  }
+  
+  .likes{
+      position: absolute;
+      left: 10px;
+      bottom: 200px;
+      width: 150px;
+  }
+  .love{
+      position: absolute;
+      left: 260px;
+      top: 50px;
+      width: 100px;
+  }
+
+  .que > div > img {
+    width: 10px;
+  }
+  
+  
+}

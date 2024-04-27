@@ -38,3 +38,37 @@
 .OurFamilySection > img {
   width: 585px;
 }
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+  .OurFamilySection {
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 30px;
+  }
+  
+  .OurFamilySection > div {
+    width: 320px;
+  }
+  
+  .OurFamilySection > div > h3 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .OurFamilySection > div > h1 {
+    font-size: 48px;
+    line-height: 67px;
+  }
+  .OurFamilySection > div > p {
+    font-size: 17px;
+    line-height: 30.8px;
+  }
+  .OurFamilySection > img {
+    width: 320px;
+  }
+}

@@ -9,8 +9,8 @@ import React from "react";
 const DownloadSection = () => {
   return (
     <div className="DownloadSection">
-      <img src={img} alt="" srcset="" />
-      <img src={downarrow} alt="" srcset="" />
+      <img className="mobile" src={img} alt="" srcset="" />
+      <img className="downarrow" src={downarrow} alt="" srcset="" />
       <div>
         <h2>
           Download the <span>Medify</span> App

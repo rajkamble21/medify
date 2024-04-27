@@ -65,7 +65,7 @@ const FooterSection = () => {
             Cardiology
           </i>
         </div>
-        <div className="col-1">
+        <div className="col-1 sm">
           <i>
             <img className="arrow" src={arrow} alt="arrow" />
             About Us
