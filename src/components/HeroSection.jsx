@@ -157,12 +157,41 @@ const HeroSection = ({
             </SwiperSlide>
           </Swiper>
         </div>
+
+        <div className="offer-img-sm">
+          <Swiper
+            modules={[Pagination, A11y]}
+            spaceBetween={0}
+            slidesPerView={1}
+            pagination={{ clickable: true }}
+            onSwiper={(swiper) => console.log(swiper)}
+            onSlideChange={() => console.log("slide change")}
+            style={{ width: 300 }}
+          >
+            <SwiperSlide>
+              <img className="offer" src={percent100} alt="" srcset="" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img className="offer" src={percent30} alt="" srcset="" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img className="offer" src={percent100} alt="" srcset="" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img className="offer" src={percent30} alt="" srcset="" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img className="offer" src={percent100} alt="" srcset="" />
+            </SwiperSlide>
+          </Swiper>
+        </div>
       </div>
       <Specialisation />
       <OurTeam />
       <PatientCaring />
       <BlogAndNews />
       <OurFamilySection />
+      <QuestionSection />
     </>
   );
 };

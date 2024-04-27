@@ -63,3 +63,56 @@
   line-height: 27px;
   text-align: center;
 }
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+
+  .Specialisation {
+    gap: 5px;
+    padding: 10px 0px;
+  }
+
+  .Specialisation > h1 {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 60px;
+  }
+
+  .box-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 5px; 
+    margin-bottom: 10px;
+  }
+
+
+  .box {
+
+    gap: 1px;
+    align-items: center;
+    justify-content: center;
+    padding: 1px;
+    border-radius: 10px;
+    width: 70px;
+    height: 80px;
+  }
+  
+  .box img {
+    width: 25px; 
+  }
+  
+  .box h3 {
+    margin-top: 1px;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 18px;
+  }
+
+
+  
+}

@@ -20,7 +20,7 @@ header > img {
   cursor: pointer;
 }
 
-.nav :last-child {
+.nav > button {
   background: rgba(42, 168, 255, 1);
   width: 130px;
   height: 40px;
@@ -34,3 +34,89 @@ header > img {
   margin-left: 30px;
   cursor: pointer;
 }
+
+
+
+
+
+.sidebar{
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.sidebar .close{
+  margin: 15px 30px;
+  cursor: pointer;
+}
+
+.sidebar > a{
+  margin: 15px 30px;
+  color: rgba(16, 40, 81, 1);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  cursor: pointer;
+}
+
+.sidebar > button{
+  margin: 15px 30px;
+  background: rgba(42, 168, 255, 1);
+  width: 130px;
+  height: 40px;
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 2560px){
+  header{
+    width: 70%;
+    margin: 0px auto;
+  }
+}
+
+@media screen and (max-width: 1440px){
+  header{
+    margin: 0px 100px;
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .nav{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header{
+    margin: 0px auto;
+    width: 320px;
+    padding: 0px 10px;
+  }
+  .nav{
+    display: none;
+  }
+  .sidebar{
+    width: 100%;
+  }
+}
+

@@ -54,3 +54,68 @@
   font-weight: 500;
   line-height: 27px;
 }
+
+
+
+
+@media screen and (max-width: 480px) {
+
+  .PatientCaring {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+      81deg,
+      #e7f0ff 9.01%,
+      rgba(232, 241, 255, 0.47) 89.11%
+    );
+    gap: 10px;
+    padding: 30px 0px;
+  }
+
+  .PatientCaring > img {
+    width: 320px;
+  }
+  
+  .PatientCaring > div {
+    width: 300px;
+  }
+
+
+  
+  .PatientCaring > div > h2 {
+    color: rgba(42, 167, 255, 1);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+  }
+  
+  .PatientCaring > div > h1 {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 40px;
+  }
+  
+  
+  .PatientCaring > div > p {
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 29px;
+    color: rgba(119, 130, 157, 1);
+  }
+  
+  .PatientCaring > div > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0px;
+    color: rgba(27, 60, 116, 1);
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+  
+}
