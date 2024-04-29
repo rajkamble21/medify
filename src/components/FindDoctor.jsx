@@ -65,13 +65,18 @@ const FindDoctor = ({
 
       {selectedState ? (
         <div className="medicalCenters">
-          <h1>{medicalCenters.length} medical centers available in {selectedState}</h1>
-          <h6>
-            <img src={verifiedtick} alt="" srcset="" />
-            Book appointments with minimum wait-time & verified doctor details
-          </h6>
-          <div>
             <div>
+              <div className="info">
+                <h1>
+                  {medicalCenters.length} medical centers available in{" "}
+                  {selectedState}
+                </h1>
+                <h6>
+                  <img src={verifiedtick} alt="" srcset="" />
+                  Book appointments with minimum wait-time & verified doctor
+                  details
+                </h6>
+              </ div>
               {medicalCenters.length ? (
                 medicalCenters.map((center, index) => (
                   <HospitalCenter
@@ -90,7 +95,6 @@ const FindDoctor = ({
 
             <img src={oralhealth} alt="" srcset="" />
           </div>
-        </div>
       ) : (
         <h1 className="Nothing">Please Select State and City</h1>
       )}

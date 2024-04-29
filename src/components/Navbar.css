@@ -84,6 +84,10 @@ header > img {
   cursor: pointer;
 }
 
+.menu{
+  display: none;
+}
+
 
 @media screen and (max-width: 2560px){
   header{
@@ -118,5 +122,9 @@ header > img {
   .sidebar{
     width: 100%;
   }
+  .menu{
+    display: block ;
+  }
+  
 }
 

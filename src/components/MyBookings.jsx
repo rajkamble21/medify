@@ -54,7 +54,7 @@ const MyBookings = ({appointments}) => {
               )}
             </div>
 
-            <img src={oralhealth} alt="" srcset="" />
+            <img className="oralhealth" src={oralhealth} alt="" srcset="" />
           </div>
         </div>
       ) : (
