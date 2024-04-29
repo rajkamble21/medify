@@ -83,7 +83,7 @@ const initialSate = [
 
 
 function App() {
-  const [selectedState, setSelectedState] = useState("DC");
+  const [selectedState, setSelectedState] = useState("");
   const [selectedCity, setSelectedCity] = useState("");
   const [states, setStates] = useState([]);
   const [cities, setCities] = useState([]);
