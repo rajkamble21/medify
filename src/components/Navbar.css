@@ -11,8 +11,13 @@ header > img {
   cursor: pointer;
 }
 
+.nav{
+  display: flex;
+  align-items: center;
+}
+
 .nav a {
-  margin: 0px 25px;
+  margin: 0px 20px;
   color: rgba(16, 40, 81, 1);
   font-size: 14px;
   font-weight: 400;
